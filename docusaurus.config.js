@@ -5,21 +5,21 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OER Course Title',
-  tagline: 'OER Tag/Keyword',
+  title: 'UNIX BASH Shell Scripting',
+  tagline: 'UNX510',
   url: 'https://seneca-ictoer.github.io/',
-  baseUrl: '/OERTemplate/',
+  baseUrl: '/UNX510/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'seneca-ictoer',
-  projectName: 'OERTemplate',
+  projectName: 'UNX510',
   themeConfig: {
     navbar: {
-      title: 'OER Course Title',
+      title: 'UNIX BASH Shell Scripting',
       logo: {
-        alt: 'Seneca Polytechnic',
+        alt: 'Chris Johnson',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
       },
@@ -37,7 +37,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'OER Course Title',
+          title: 'UNIX BASH Shell Scripting',
           items: [
             {
               html: `<a href='#' id='pwa-button' class='footer__link-item' hidden>Install as an App</a>`,
@@ -45,7 +45,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Seneca Polytechnic.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Chris Johnson.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -59,7 +59,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/catherine-leung/OERTemplate/tree/main',
+          editUrl: 'https://github.com/catherine-leung/UNX510/tree/main',
           remarkPlugins: [remarkMath],
           rehypePlugins: [[rehypeKatex, { strict: false }]],
         },
